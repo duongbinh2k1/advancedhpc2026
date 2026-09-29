@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{Labwork 2: Get to Know Your GPU}
+\author{Duong Tan Binh \\ Student ID: 2540007}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Objective}
+Use Numba CUDA to obtain the GPU name, multiprocessor count, CUDA core
+count, and memory size.
+
+\section{Implementation}
+The program selects GPU 0 using \texttt{cuda.select\_device(0)} and reads
+its name and multiprocessor count. The CUDA core count is calculated as:
+\[
+\text{CUDA cores} = \text{SM count} \times \text{cores per SM}
+\]
+Memory size is read with \texttt{get\_memory\_info()} and converted to GiB.
+
+\section{Results}
+The program was run on WSL2 using the Conda environment \texttt{m2}.
+\begin{verbatim}
+Device name: NVIDIA GeForce RTX 5060 Ti
+Multiprocessor count: 36
+CUDA core count: 4608
+Memory: 15.90 GiB
+\end{verbatim}
+The GPU has 36 multiprocessors and 128 CUDA cores per multiprocessor,
+giving $36 \times 128 = 4608$ CUDA cores. The memory reported by the
+CUDA context is approximately 15.90 GiB.
+
+
+\end{document}

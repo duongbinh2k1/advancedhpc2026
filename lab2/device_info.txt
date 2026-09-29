@@ -1,0 +1,4 @@
+Device name: NVIDIA GeForce RTX 5060 Ti
+Multiprocessor count: 36
+CUDA core count: 4608
+Memory: 15.90 GiB
