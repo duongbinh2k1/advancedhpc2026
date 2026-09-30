@@ -1,11 +1,19 @@
-Image: input.jpg (512 x 600)
-CPU mean (5 runs): 89.216 ms
-GPU timing includes both transfers and kernel execution.
-Block size    GPU mean (ms)    Std (ms)    Speedup
-        32            1.526       0.486      58.46x
-        64            1.691       0.211      52.77x
-       128            1.718       0.217      51.94x
-       256            1.733       0.219      51.49x
-       512            1.743       0.183      51.19x
-      1024            1.919       0.681      46.48x
-CPU and GPU results match exactly for all block sizes.
+CPU time: 120.655 ms
+Block size: 32
+GPU time: 0.52 ms
+Speedup: 232.25
+Block size: 64
+GPU time: 0.541 ms
+Speedup: 223.03
+Block size: 128
+GPU time: 0.356 ms
+Speedup: 338.5
+Block size: 256
+GPU time: 0.348 ms
+Speedup: 346.38
+Block size: 512
+GPU time: 0.331 ms
+Speedup: 364.34
+Block size: 1024
+GPU time: 0.331 ms
+Speedup: 364.34
