@@ -1,0 +1,13 @@
+CPU time: 98.982 ms
+1D block size: 256
+1D time: 0.513 ms
+1D speedup: 193.1
+2D block size: (8, 8)
+2D time: 0.688 ms
+2D speedup: 143.8
+2D block size: (16, 16)
+2D time: 0.43 ms
+2D speedup: 230.39
+2D block size: (32, 32)
+2D time: 0.377 ms
+2D speedup: 262.76
