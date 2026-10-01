@@ -1,0 +1,21 @@
+CPU time: 6842.816 ms
+GPU global memory
+Block size: (8, 8)
+GPU time: 0.5 ms
+Speedup: 13693.15
+Block size: (16, 16)
+GPU time: 0.348 ms
+Speedup: 19685.08
+Block size: (32, 32)
+GPU time: 0.334 ms
+Speedup: 20515.26
+GPU shared memory
+Block size: (8, 8)
+GPU time: 0.461 ms
+Speedup: 14840.15
+Block size: (16, 16)
+GPU time: 0.364 ms
+Speedup: 18783.28
+Block size: (32, 32)
+GPU time: 0.309 ms
+Speedup: 22128.64
