@@ -1,0 +1,6 @@
+Block size: (8, 8)
+Total time: 1.248 ms
+Block size: (16, 16)
+Total time: 0.761 ms
+Block size: (32, 32)
+Total time: 0.752 ms
