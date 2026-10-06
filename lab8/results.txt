@@ -1,0 +1,2 @@
+Maximum channel difference: 0
+Different pixels: 0

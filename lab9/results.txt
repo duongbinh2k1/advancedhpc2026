@@ -1,0 +1,4 @@
+Pixels: 307200
+Histogram total: 307200
+Input range: 0 255
+Output range: 0 255
